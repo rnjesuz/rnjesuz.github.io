@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<TITLE> Ricardo de Jesus | Computer Engineer </TITLE>
+
+	<meta name="description" content="Personal page of Ricardo de Jesus">
+	<meta name="keywords" content="Ricardo de Jesus, Personal Page, Curriculum Vitae, Skills, Biography, Education, Work">
+	<meta name="author" content="Ricardo Nuno Macedo de Jesus">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="MobileOptimized" content="width"> <!-- content="320"? -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!-- Frameworks -->
+	<link rel="stylesheet" type="text/css" href="frameworks/ink-3.1.10/css/ink-flex.min.css">
+	<link rel="stylesheet" type="text/css" href="frameworks/ink-3.1.10/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="frameworks/bootstrap-4.0.0/css/bootstrap.min.css"> -->
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/Personal Page.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/flexbox.css">
+	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css"> -->
+
+	<!-- load inks CSS for IE8 -->
+    <!--[if lt IE 9 ]>
+        <link rel="stylesheet" href="../css/ink-ie.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <![endif]-->
+
+    <!-- test browser flexbox support and load legacy grid if unsupported -->
+    <script type="text/javascript" src="frameworks/ink-3.1.10/js/modernizr.js"></script>
+    <script type="text/javascript">
+    	Modernizr.load({
+    		test: Modernizr.flexbox,
+    		nope : 'frameworks/ink-3.1.10/css/ink-legacy.min.css'
+    	});
+    </script>
+</head>
+
+<body>
+
+	<!--[if lte IE 9 ]>
+    <div class="ink-grid">
+        <div class="ink-alert basic">
+            <button class="ink-dismiss">&times;</button>
+            <p>
+                <strong>You are using an outdated Internet Explorer version.</strong>
+                Please <a href="http://browsehappy.com/">upgrade to a modern browser</a> to improve your web experience.
+            </p>
+        </div>
+    </div><![endif]-->
+
+    <div id="nav-bar">
+    	<nav class="ink-navigation ink-grid">
+    		<ul id="nav-list" class="menu horizontal blue">
+    			<li id="home-link" name="home-link" class="active"><a href="#"><img src="images/ic_home_white_18dp_2x.png"/></a></li>
+    			<li id="aboutme-link" name="aboutme-link"><a href="#" class="trn">About Me</a></li>
+    			<li id="curriculum-link" name="curriculum-link"><a href="#">Curriculum Vitae</a></li>
+    			<li id="thesis-link" name="thesis-link"><a href="#" class="trn">Thesis</a></li>
+    			<li id="contacts-link" name="contacts-link"><a href="#" class="trn">Contacts</a></li>
+    			<span class="flag-icon">
+    				<li id="pt-link" name="pt-link"><a class="lang_selector" role="button" data-value="pt"><img src="images/pt.png"/></a></li>
+    				<li id="en-link" name="en-link"><a class="lang_selector" role="button" data-value="en"><img src="images/gb.png"/></a></li>
+    			</span>
+    		</ul>
+    	</nav>
+    </div>
+
+    <div class="wrapper">
+
+    	<!-- Home page -->
+    	<div id="home" class="container">
+    		<div class="ink-grid vertical-space title">
+    			<div class="column-group">
+    				<div class="all-100">
+    					<div class="column">
+    						<h1 class="trn">Hello...  World!</h1>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="ink-grid content">
+    			<div class="column-group horizontal-gutters">
+    				<div class="all-50">
+    					<div class="column">
+    						<h3>&emsp;<span class="trn">My name is Ricardo and I'm a young developer enthusiastic to write awesome, efficient and clever code!</span></h3>
+    						<p>&emsp;<span class="trn">I'm currently finishing my Master's degree in <i><b>Information Systems and Computer Engineering</b></i> at Instituto Superior Técnico. My areas of Specialization are <i><b>Distributed Systems</b></i> and <i><b>Software Engineering.</b></i></span></p>
+    						<p>&emsp;<span class="trn">To finish it, I'm working on my thesis entitled <i><b>Go-Together: A novel trajectory-based journey sharing platform for collective events</b></i>. A platform for joint travelling where friends plan road trips. The platform focuses on providing ride-sharing options between participants with an efficient and encompassing algorithm.</span></p>
+    					</div>
+    				</div>
+    				<div class="all-50">
+    					<div class="column align-center push-middle">
+    						<img class= portrait src="images/me.png" alt="Ricardo Nuno Macedo de Jesus"/>
+    					</div>
+    				</div>                
+    			</div>
+    		</div>
+    	</div>
+
+    	<!-- about me page -->
+    	<div id="aboutme" class="container">
+    		<div class="ink-grid vertical-space title">
+    			<div class="column-group">
+    				<div class="all-100">
+    					<div class="column">
+    						<h1 class="trn">About Me</h1>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="ink-grid content">
+    			<div class="column-group horizontal-gutters">
+    				<div class="all-50">
+    					<div class="column">
+    						<h2 class="trn">Biography</h2>
+    						<p>&emsp;<span class="trn">My name is Ricardo Nuno Macedo de Jesus, I'm 23 and from Lisbon, Portugal. Native in Portuguese, fluent in English and can at least understand Spanish and French.</span></p>
+    						<p>&emsp;<span class="trn">I consider myself hard-working, perfectionist, responsible, out-going and positive. Always open-minded to try new ideas. I constantly try to better myself and surpass my limits. I aspire to never stop learning new tools and techniques, to remain knowledgeable of innovations and state of the art possibilities.</span></p>
+    						<p>&emsp;<span class="trn">I want to provide a thriving and friendly working environment, with a prosperous team building and team betterment ideology.</span></p>
+    						<p>&emsp;<span class="trn">Currently I have no previous professional experience, but am eager to start and prove my worth.</span></p>
+    					</div>
+    				</div>
+    				<div class="all-50">
+    					<div class="column">
+    						<h2 class="trn">Volunteer work</h2>
+    						<p><b><span class="trn">Student Groups: </span></b>&emsp;<span class="trn">I was, and currently am, part of several activities and student groups of Instituto Superior Técnico. I led and participated in several initiatives design to improve student life and communication within the school, and help them hon and master their skills. All the experiences and challenges faced proved invaluable.</span></p>
+    						<p></p>
+
+    						<h2 class="trn">Hobbies</h2>
+    						<p>&emsp;<span class="trn">Long time computer and technology aficionado, my interests started with an old machine I played games in. To this day I continue to be an avid gamer. I also consider myself an enthusiastic reader and tourist. I'm a music lover and even dabbled a bit playing an electric guitar.</span></p>
+    					</div>
+    				</div>                
+    			</div>
+    		</div>
+    	</div>
+
+    	<!-- curriculum vitae -->
+    	<div id="curriculum" class="container">
+    		<div class="ink-grid vertical-space title">
+    			<div class="column-group">
+    				<div class="all-100">
+    					<div class="column">
+    						<h1>Curriculum Vitae</h1>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="ink-grid content">
+    			<div class="column-group horizontal-gutters">
+    				<div class="all-50">
+    					<div class="column">
+    						<h2 class="trn">Education</h2>
+    						<p>&emsp;<span class="trn">I'm currently working on my thesis for an MSc in Information Systems and Computer Engineering. My thesis' theme is <i><b>Go-together: A novel trajectory-based journey sharing platform for collective events</b></i> and my supervisor is professor João Pedro Barreto.</span></p>
+    						<p>
+    							<table rules="cols">
+    								<tr>
+    									<th class="year">2019</th>
+    									<th class="trn">Finished my MSc</th>
+    								</tr>
+    								<tr>
+    									<th></th>
+    									<th class="trn">Finished my Thesis</th>
+    								</tr>
+    								<tr>
+    									<th></th>
+    									<th><span class="trn">Delivered Solution's Documentation  </span><a href="#" class="redirect-to-implementation"><img class="redirect" src="images/ic_launch_black_18dp_1x.png" style="vertical-align: middle;"/></a></th>
+    								</tr>
+    							</table>
+    							<table rules="cols">
+    								<tr>
+    									<th class="year">2018</th>
+    									<th class="trn">Started Implementing Solution</th>
+    								</tr>
+    								<tr>
+    									<th></th>
+    									<th><span class="trn">Delivered Research Documentation  </span><a href="#" class="redirect-to-research"><img class="redirect" src="images/ic_launch_black_18dp_1x.png" style="vertical-align: middle;"/></a></th>
+    								</tr>
+    							</table>
+    							<table rules="cols">
+    								<tr>
+    									<th class="year">2017</th>
+    									<th class="trn">Started Collecting Research</th>
+    								</tr>
+    								<tr>
+    									<th></th>
+    									<th class="trn">Started my Thesis</th>
+    								</tr>
+    							</table>
+    							<table rules="cols">
+    								<tr>
+    									<th class="year">2015</th>
+    									<th class="trn">Finished my BSc</th>
+    								</tr>
+    							</table>
+    							<table rules="cols">
+    								<tr>
+    									<th class="year">2011</th>
+    									<th class="trn">Enrolled at College: IST</th>
+    								</tr>
+    								<tr>
+    									<th></th>
+    									<th class="trn">Graduated Highschool</th>
+    								</tr>
+    							</table>
+    						</p>
+    						<p></p>
+    						<p></p>
+    					</div>
+    				</div>
+    				<div class="all-50">
+    					<div class="column">
+    						<h2 class="trn">Skills</h2>
+    						<p><span class="trn"><b>Knowledge:</b> OOP, Distributed Systems, Software Testing, Project Management, Mobile Computing, Secure Communications, Artificial intelligence, Agile Development.</span></p>
+    						<p><b><span class="trn">Programming Languages:</span></b> Scheme, C, C++, C#, .Net, Java, Assembley, HTML, CSS, Javascript, Android,
+    							<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>.</p>
+    							<p><b><span class="trn">Version Control:</span></b> Git, CVS, SVN.</p>
+    							<a href="https://web.ist.utl.pt/ricardo.nuno.jesus/CV_RicardoJesus.pdf" target="_blank" class="ink-button blue trn">Download CV</a>								
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<!-- Thesis -->
+    	<div id="thesis" class="container">
+    		<div class="ink-grid vertical-space title">
+    			<div class="column-group">
+    				<div class="all-100">
+    					<div class="column">
+    						<h1 class="trn">Thesis</h1>
+    					</div>
+    				</div>
+    			</div>
+    		</div>    		
+    		<div class="ink-grid content">
+    			<!-- Introduction -->
+    			<div class="column-group">
+    				<div class="all-100">
+    					<div class="column">
+    						<p class="trn">My thesis is a pursuit in Distributed Systems.</p>
+    						<p style="text-align: left;">&emsp;<span class="trn">I intended on delving into an inovative, ambitious and trying topic. As such, by talking with professor João Pedro Barreto, I engaged myself in developing Go-Together.</span></p>
+    						<p style="text-align: left;">&emsp;<span class="trn">From monetary cost to environmental awareness, the world is shying away from diesel vehicles and exlploring other mobility options. Ride-sharing is one of the possibilities and areas of research and inovation. To partake in that advancement, in collaboration with professor João Barreto, I started idealizing a ride-sharing solution for a never explored, niche market: matchmaking calculations for a pre-formed group going on a joint travel (to minimize vehicles).</span></p>
+    						<p class="trn">My thesis was redacted in English (Research and Implementation).</p>
+    					</div>
+    				</div>
+    			</div>
+    			<!-- Thesis research component -->
+    			<div class="column-group horizontal-gutters">    				
+    				<div class="all-100" id="research">
+    					<div class="column">
+    						<h2 style="float: left;" class="trn">Research</h2>
+    					</div>
+    				</div>
+    				<div class="all-50">
+    					<div class="column">
+    						<h3 class="trn">Abstract</h3>
+    						<p class="trn">(To be determined)</p>
+    						<h3 class="trn">Keywords</h3>
+    						<p class="trn">(To be determined)</p>
+    						<a href="https://web.ist.utl.pt/ricardo.nuno.jesus/Research.pdf" target="_blank" class="ink-button blue trn">Read Research</a>
+    					</div>
+    				</div>
+    				<div class="all-50">
+    					<div class="column">
+    						<h3 class="trn">Title</h3>
+    						<p><b>Go-Together: </b>A novel trajectory-based journey sharing platform for collective events</p>
+    						<h3 class="trn">Author</h3>
+    						<p>Ricardo Nuno Macedo de Jesus</p>
+    						<h3 class="trn">Supervisor</h3>
+    						<p>
+    							João Pedro Barreto  
+    							<a href="http://www.gsd.inesc-id.pt/~jpbarreto/" id="redirect-to-supervisor" target="_blank"><img id="supervisor" src="images/ic_launch_black_18dp_1x.png" style="vertical-align: middle;"/>
+    							</a>
+    						</p>
+    						<h3 class="trn">Examination Committee</h3>
+    						<p class="trn">(To be announced)</p>
+    					</div>
+    				</div>
+    			</div>
+
+    			<!-- Thesis implementation component -->
+    			<div class="column-group horizontal-gutters">
+    				<div class="all-100" id="implementation">
+    					<div class="column">
+    						<h2 style="float: left;" class="trn">Implementation</h2>
+    					</div>
+    				</div>
+    				<div class="all-50">
+    					<div class="column">
+    						<h3 class="trn">Abstract</h3>
+    						<p class="trn">(To be determined)</p>
+    						<h3 class="trn">Keywords</h3>
+    						<p class="trn">(To be determined)</p>
+    						<a href="https://web.ist.utl.pt/ricardo.nuno.jesus/Solution.pdf" target="_blank" class="ink-button blue trn">Read Implementation</a>
+    					</div>
+    				</div>
+    				<div class="all-50">
+    					<div class="column">
+    						<h3 class="trn">Title</h3>
+    						<p><b>Go-Together: </b>A novel trajectory-based journey sharing platform for collective events</p>
+    						<h3 class="trn">Author</h3>
+    						<p>Ricardo Nuno Macedo de Jesus</p>
+    						<h3 class="trn">Supervisor</h3>
+    						<p>
+    							João Pedro Barreto  
+    							<a href="http://www.gsd.inesc-id.pt/~jpbarreto/" id="redirect-to-supervisor" target="_blank"><img id="supervisor" src="images/ic_launch_black_18dp_1x.png" style="vertical-align: middle;"/>
+    							</a>
+    						</p>
+    						<h3 class="trn">Examination Committee</h3>
+    						<p class="trn">(To be announced)</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<!-- Contacts -->
+    	<div id="contacts" class="container">
+    		<div class="ink-grid vertical-space title">
+    			<div class="column-group">
+    				<div class="all-100">
+    					<div class="column">
+    						<h1 class="trn">Contacts</h1>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="ink-grid content">
+    			<div class="column-group horizontal-gutters">
+    				<div class="all-50">
+    					<div class="column">
+    						<div class="flex-container"><img id="gh-icon" src="images/gh_normal.png"/><a href="https://github.com/rnjesuz" target="_blank">GitHub</a></div>
+    						<div class="flex-container"><img id="li-icon" src="images/li_normal.png"/><a href="" target="_blank">LinkedIn</a></div>
+    						<div class="flex-container"><img id="fb-icon" src="images/fb_normal.png"/><a href="https://www.facebook.com/ricardo.nuno.jesus" target="_blank">Facebook</a></div>
+    					</div>
+    				</div>
+    				<div class="all-50">
+    					<div class="column">
+    						<h3 class="trn">Contact me!</h3>
+    						<p><b><span class="trn">Personal e-mail: </span></b><a href="mailto:rn_jesuz@hotmail.com" target="_top">rn_jesuz@hotmail.com</a></p>
+    						<p><b><span class="trn">Institutional e-mail: </span></b><a href="mailto: ricardo.n.jesus@ist.utl.pt " target="_top"> ricardo.n.jesus@ist.utl.pt</a></p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery | from Google CDN -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- translate.js-->
+    <script type="text/javascript" src="frameworks/translate/jquery.translate.js"></script>
+    <!-- my JavaScript -->
+    <script type="text/javascript" src="js/translation.js"></script>
+    <script type="text/javascript" src="js/myJavascript.js"></script>
+    <!-- Ink by Sapo.pt -->
+    <script type="text/javascript" src="frameworks/ink-3.1.10/js/holder.js"></script>
+    <script type="text/javascript" src="frameworks/ink-3.1.10/js/ink-all.min.js"></script>
+    <script type="text/javascript" src="frameworks/ink-3.1.10/js/autoload.js"></script>
+
+</body>
+</html>
