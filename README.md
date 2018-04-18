@@ -2,7 +2,7 @@
 Source code of my personal page.
 
 * HTML5: 
-  -index;
+  - index;
 
 * CSS:
   - flexbox;
