@@ -11,8 +11,8 @@ h1 {
 }
 
 /* Hide the scrollbar without the content being "hidden" s*/
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 
@@ -105,7 +105,7 @@ th {
 .link
 {
    color: black;
-   text-decoration: none; 
+   text-decoration: none;
    background-color: none;
 }
 
@@ -160,12 +160,12 @@ th {
   }*/
 
 
-
-/* For mobile, tablet media queries */
-/*@media (max-height:  900px) {
+.bar-vertical {display: none;}
+/* For mobile media queries */
+/*@media only screen and (max-width : 320px) {
    .container .title {
     margin-top: 20%;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
-}
+  }
 }*/
