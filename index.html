@@ -20,10 +20,12 @@
 
 	<!-- CSS -->
 
-	<link rel="stylesheet" type="text/css" href="stylesheets/Personal Page.css">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width : 480px)" href="stylesheets/Personal Page Mobile.css">
-	<link rel="stylesheet" type="text/css" media="only screen and (min-width : 480px)" href="stylesheets/flexbox.css">
 	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css"> -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/flexbox.css">
+
+	<!-- mobile vs desktop stylesheets -->
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width : 480px)" href="stylesheets/Personal Page.css">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width : 480px)" href="stylesheets/Personal Page Mobile.css">
 
 	<!-- load inks CSS for IE8 -->
     <!--[if lt IE 9 ]>
@@ -54,17 +56,17 @@
     </div><![endif]-->
 
 		<!-- For mobile portrait-->
-		<div id="nav-bar" class="bar-vertical">
+		<div id="nav-bar_mobile" class="bar-vertical">
 			<nav class="ink-navigation ink-grid">
-				<ul id="nav-list-vertical" class="menu horizontal blue">
+				<ul class="menu horizontal blue">
 					<li>
 						<a href="#"><img src="images/ic_menu_white_18dp/android/drawable-xhdpi/ic_menu_white_18dp.png"/></a>
-						<ul class="submenu flyout right" style="background-color: #1b75ce;">
-							<li id="home-link" name="home-link"><a href="#"><img src="images/ic_home_white_18dp/web/ic_home_white_18dp_1x.png"/></a></li>
-							<li id="aboutme-link" name="aboutme-link"><a href="#" class="trn"><font color="white">About Me</font></a></li>
-							<li id="curriculum-link" name="curriculum-link"><a href="#"><font color="white">Curriculum Vitae</font></a></li>
-							<li id="thesis-link" name="thesis-link"><a href="#" class="trn"><font color="white">Thesis</font></a></li>
-							<li id="contacts-link" name="contacts-link"><a href="#" class="trn"><font color="white">Contacts</font></a></li>
+						<ul id="nav-list_mobile" class="submenu flyout right" style="background-color: #1b75ce;">
+							<li id="home-link_mobile" name="home-link_mobile" class="active"><a href="#"><img src="images/ic_home_white_18dp/web/ic_home_white_18dp_1x.png"/></a></li>
+							<li id="aboutme-link_mobile" name="aboutme-link_mobile"><a href="#" class="trn"><font color="white">About Me</font></a></li>
+							<li id="curriculum-link_mobile" name="curriculum-link_mobile"><a href="#"><font color="white">Curriculum Vitae</font></a></li>
+							<li id="thesis-link_mobile" name="thesis-link_mobile"><a href="#" class="trn"><font color="white">Thesis</font></a></li>
+							<li id="contacts-link_mobile" name="contacts-link_mobile"><a href="#" class="trn"><font color="white">Contacts</font></a></li>
 						</ul>
 					</li>
 					<span class="flag-icon">

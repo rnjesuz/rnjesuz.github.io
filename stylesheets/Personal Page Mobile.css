@@ -16,7 +16,7 @@ h1 {
 }
 
 
-#nav-bar {
+#nav-bar_mobile {
     background: #0f75da;
     position: fixed;
     z-index: 1000;
