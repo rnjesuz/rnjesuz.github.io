@@ -19,8 +19,10 @@
 	<!-- <link rel="stylesheet" href="frameworks/bootstrap-4.0.0/css/bootstrap.min.css"> -->
 
 	<!-- CSS -->
+
 	<link rel="stylesheet" type="text/css" href="stylesheets/Personal Page.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/flexbox.css">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width : 480px)" href="stylesheets/Personal Page Mobile.css">
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width : 480px)" href="stylesheets/flexbox.css">
 	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css"> -->
 
 	<!-- load inks CSS for IE8 -->
@@ -51,7 +53,29 @@
         </div>
     </div><![endif]-->
 
-    <div id="nav-bar">
+		<!-- For mobile portrait-->
+		<div id="nav-bar" class="bar-vertical">
+			<nav class="ink-navigation ink-grid">
+				<ul id="nav-list-vertical" class="menu vertical blue">
+					<li id="menu" name="menu"><img src="images/ic_home_white_18dp_1x.png"/>
+						<ul class="submenu blue">
+							<li id="home-link" name="home-link"><a href="#"><img src="images/ic_home_white_18dp_2x.png"/></a></li>
+							<li id="aboutme-link" name="aboutme-link"><a href="#" class="trn">About Me</a></li>
+							<li id="curriculum-link" name="curriculum-link"><a href="#">Curriculum Vitae</a></li>
+							<li id="thesis-link" name="thesis-link"><a href="#" class="trn">Thesis</a></li>
+							<li id="contacts-link" name="contacts-link"><a href="#" class="trn">Contacts</a></li>
+						</ul>
+					</li>
+					<span class="flag-icon">
+						<li id="pt-link" name="pt-link"><a class="lang_selector" role="button" data-value="pt"><img src="images/pt.png"/></a></li>
+						<li id="en-link" name="en-link"><a class="lang_selector" role="button" data-value="en"><img src="images/gb.png"/></a></li>
+					</span>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- For desktop or landscape -->
+    <div id="nav-bar" class="bar-horizontal">
     	<nav class="ink-navigation ink-grid">
     		<ul id="nav-list" class="menu horizontal blue">
     			<li id="home-link" name="home-link" class="active"><a href="#"><img src="images/ic_home_white_18dp_2x.png"/></a></li>
@@ -93,7 +117,7 @@
     					<div class="column align-center push-middle">
     						<img class= portrait src="images/me.png" alt="Ricardo Nuno Macedo de Jesus"/>
     					</div>
-    				</div>                
+    				</div>
     			</div>
     		</div>
     	</div>
@@ -129,7 +153,7 @@
     						<h2 class="trn">Hobbies</h2>
     						<p>&emsp;<span class="trn">Long time computer and technology aficionado, my interests started with an old machine I played games in. To this day I continue to be an avid gamer. I also consider myself an enthusiastic reader and tourist. I'm a music lover and even dabbled a bit playing an electric guitar.</span></p>
     					</div>
-    				</div>                
+    				</div>
     			</div>
     		</div>
     	</div>
@@ -214,7 +238,7 @@
     						<p><b><span class="trn">Programming Languages:</span></b> Scheme, C, C++, C#, .Net, Java, Assembley, HTML, CSS, Javascript, Android,
     							<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>.</p>
     							<p><b><span class="trn">Version Control:</span></b> Git, CVS, SVN.</p>
-    							<a href="https://web.ist.utl.pt/ricardo.nuno.jesus/CV_RicardoJesus.pdf" target="_blank" class="ink-button blue trn">Download CV</a>								
+    							<a href="https://web.ist.utl.pt/ricardo.nuno.jesus/CV_RicardoJesus.pdf" target="_blank" class="ink-button blue trn">Download CV</a>
     						</div>
     					</div>
     				</div>
@@ -232,7 +256,7 @@
     					</div>
     				</div>
     			</div>
-    		</div>    		
+    		</div>
     		<div class="ink-grid content">
     			<!-- Introduction -->
     			<div class="column-group">
@@ -246,7 +270,7 @@
     				</div>
     			</div>
     			<!-- Thesis research component -->
-    			<div class="column-group horizontal-gutters">    				
+    			<div class="column-group horizontal-gutters">
     				<div class="all-100" id="research">
     					<div class="column">
     						<h2 style="float: left;" class="trn">Research</h2>
@@ -269,7 +293,7 @@
     						<p>Ricardo Nuno Macedo de Jesus</p>
     						<h3 class="trn">Supervisor</h3>
     						<p>
-    							João Pedro Barreto  
+    							João Pedro Barreto
     							<a href="http://www.gsd.inesc-id.pt/~jpbarreto/" id="redirect-to-supervisor" target="_blank"><img id="supervisor" src="images/ic_launch_black_18dp_1x.png" style="vertical-align: middle;"/>
     							</a>
     						</p>
@@ -303,7 +327,7 @@
     						<p>Ricardo Nuno Macedo de Jesus</p>
     						<h3 class="trn">Supervisor</h3>
     						<p>
-    							João Pedro Barreto  
+    							João Pedro Barreto
     							<a href="http://www.gsd.inesc-id.pt/~jpbarreto/" id="redirect-to-supervisor" target="_blank"><img id="supervisor" src="images/ic_launch_black_18dp_1x.png" style="vertical-align: middle;"/>
     							</a>
     						</p>

@@ -1,4 +1,4 @@
-	
+
 var activeLink = "home";
 
 function on_mouseover(social_media){
@@ -43,13 +43,13 @@ $("#home-link, #aboutme-link, #curriculum-link, #thesis-link, #contacts-link")
         $('html,body').animate({
         	scrollTop: $("#" + page[0]).offset().top + 100},
         	1500);
-        
+
         $("#nav-list li").each(function (){
         	$(this).removeClass("active");
         });
-        
+
         $("#" + name).addClass("active");
-        
+
     });
 
 $(".redirect-to-thesis")
