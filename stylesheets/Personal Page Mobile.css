@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+html, body {
+    font-family: 'Oswald', monospace;
+    height: 100%;
+    background: #fdfdfd;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+/* Hide the scrollbar without the content being "hidden" s*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+#nav-bar {
+    background: #0f75da;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.flag-icon{
+    float: right;
+}
+
+/* Pages wrapper */
+.wrapper {
+    min-height: 75%;
+    height: auto !important;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    /*width: 400%;*/
+
+    /*deprecated ? */
+    scroll-snap-points-y: repeat(100%);
+    scroll-snap-type: mandatory;
+    scroll-snap-destination: 20px 0;
+}
+
+/* Single page container */
+.container {
+    padding-top: 3%;
+    min-height: 100%;
+    overflow: auto;
+    flex: 1;
+    /*height: auto !important;*/
+    /*height: 75%;*/
+    margin: 0 auto 0;
+    max-width: 95vh;
+    /*width: 25%;*/
+    /*float: right;*/
+
+    /*deprecated ? */
+    scroll-snap-destination: 0 0;
+}
+
+.container .title {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 15%;
+}
+
+.title {
+    max-width: 90vh;
+    text-overflow: clip;
+    overflow-wrap: break-word;
+}
+
+.all-100{
+    text-align: center;
+}
+
+.all-50{
+    min-height: 70vh;
+    min-width: 45%;
+    text-overflow: clip;
+    overflow-wrap: break-word;
+}
+
+th {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.year {
+    padding-left: 0;
+}
+
+.portrait {
+    vertical-align: center;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.link
+{
+   color: black;
+   text-decoration: none;
+   background-color: none;
+}
+
+/*.text-code {
+    font-family: "Lucida Console", Monaco, monospace;
+    }
+    */
+
+    .no-style {
+        list-style: none;
+    }
+
+    .compress-list li {
+        line-height: 20px;
+    }
+
+    .push, footer {
+        height: 80px;
+        margin-top: 0;
+    }
+
+    footer {
+        position: fixed;
+        background: #ccc;
+        border: 0;
+        width: 100%;
+    }
+
+    footer * {
+        line-height: inherit;
+    }
+
+    .latex sub, .latex sup {
+      text-transform: uppercase;
+  }
+
+
+  /* For more rigorous Latex symbol!! */
+  /*.latex sub {
+      vertical-align: -0.5ex;
+      margin-left: -0.1667em;
+      margin-right: -0.125em;
+  }
+  .latex, .latex sub {
+      font-size: 1em;
+  }
+  .latex sup {
+      font-size: 0.85em;
+      vertical-align: 0.15em;
+      margin-left: -0.36em;
+      margin-right: -0.15em;
+  }*/
+
+
+.bar-vertical {display: inline;}
+.bar-horizontal {display: none;}
+/* For mobile media queries */
+/*@media only screen and (max-width : 320px) {
+   .container .title {
+    margin-top: 20%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}*/
