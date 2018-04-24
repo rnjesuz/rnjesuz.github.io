@@ -1,5 +1,6 @@
 $(function() {
 
+  //Translations
   var t = {
     /* Nav-bar */
     "About Me": {
@@ -174,14 +175,27 @@ $(function() {
       pt: "(A ser anunciado)"
     },
   };
+  //starter language
   var _t = $('body').translate({lang: "en", t: t});
 
-
+  //Onclick() based on language selected (html lang_selector class)
   $(".lang_selector").click(function() {
-    var lang = $(this).attr("data-value");
-    _t.lang(lang);
+    var lang = $(this).attr("data-value"); //language selected
+    _t.lang(lang); //translate
+
+    //remove other languages as active
+    $("#lang-list li").each(function (){ //from desktop/landscape menu
+      $(this).removeClass("active");
+    });
+    $("#lang-list_mobile li").each(function (){ //from portrait menu
+      $(this).removeClass("active");
+    });
+
+    //add new language as active
+    var name = $(this).attr("name");
+  	var page = name.split("-");
+    $("#" + page[0] + "-link").addClass("active"); //on desktop/landscape menu
+  	$("#" + page[0] + "-link_mobile").addClass("active"); //on portrait menu
   });
-
-
 
 });

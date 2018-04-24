@@ -1,4 +1,4 @@
-	
+
 var activeLink = "home";
 
 function on_mouseover(social_media){
@@ -17,92 +17,93 @@ on_mouseover("fb");		on_mouseout ("fb");
 on_mouseover("gh");		on_mouseout ("gh");
 on_mouseover("li");		on_mouseout ("li");
 
-$("#home-link, #aboutme-link, #curriculum-link, #thesis-link, #contacts-link")
+$("#home-link, #aboutme-link, #curriculum-link, #thesis-link, #contacts-link, #home-link_mobile, #aboutme-link_mobile, #curriculum-link_mobile, #thesis-link_mobile, #contacts-link_mobile")
 .click(function() {
 
 	var name = $(this).attr("name");
 	var page = name.split("-");
 
-	if(activeLink == name){
-
-		activeLink = "home";
-		$("#" + name).removeClass("active")
+	//check what is the active link
+	if(activeLink == page[0]){ //if current
+		activeLink = "home"; //reset to home
+		//remove current active class from portrait and lanscape/desktop menu
+		$("#" + page[0] + "-link").removeClass("active");
+		$("#" + page[0] + "-link_mobile").removeClass("active")
+		//add home as active to portrait and lanscape/desktop menu
 		$("#home-link").addClass("active");
-		return 0;
+		$("#home-link_mobile").addClass("active");
+		return 0; //exit function
 	}
-	else
-		activeLink = name;
+	else //else make current as active
+		activeLink = page[0];
 
-	/*for horizontal acroll also change CSS*/
-        /*if( $(document).scrollLeft() != $("#" + page[0]).offset().left ){
-            $('html, body').animate({
-                scrollLeft: $("#" + page[0]).offset().left
-            }, 1500);
-        }*/
+	/*for horizontal scroll animation also change CSS*/
+  /*if( $(document).scrollLeft() != $("#" + page[0]).offset().left ){
+  		$('html, body').animate({
+    		scrollLeft: $("#" + page[0]).offset().left
+			}, 1500);
+    }*/
 
-        $('html,body').animate({
-        	scrollTop: $("#" + page[0]).offset().top + 100},
-        	1500);
-        
-        $("#nav-list li").each(function (){
-        	$(this).removeClass("active");
-        });
-        
-        $("#" + name).addClass("active");
-        
-    });
+	//scroll animation to desired part of webpage
+  $('html,body').animate({ scrollTop: $("#" + page[0]).offset().top}, 1500);
 
-$(".redirect-to-thesis")
-.click(function() {
+	//remove active class from portrait and lanscape/desktop menu
+  $("#nav-list li").each(function (){
+    	$(this).removeClass("active");
+  });
+	$("#nav-list_mobile li").each(function (){
+    	$(this).removeClass("active");
+  });
 
-	var name = $('#thesis-link').attr("name");
-	activeLink = name;
-	var page = name.split("-");
-
-	$('html,body').animate({
-		scrollTop: $("#" + page[0]).offset().top},
-		1500);
-
-	$("#nav-list li").each(function (){
-		$(this).removeClass("active");
-	});
-
-	$("#" + name).addClass("active");
+	//add current as active class to portrait and lanscape/desktop menu
+  $("#" + page[0] + "-link").addClass("active");
+	$("#" + page[0] + "-link_mobile").addClass("active");
 
 });
 
 $(".redirect-to-research")
 .click(function() {
 
-	var name = $('#thesis-link').attr("name");
-	activeLink = name;
+	//make thesis the active class
+	activeLink = "thesis";
 
+	//scroll animation to desired part of webpage
 	$('html,body').animate({
 		scrollTop: $("#research").offset().top - 50},
 		1500);
 
+	//remove active class from portrait and lanscape/desktop menu
 	$("#nav-list li").each(function (){
 		$(this).removeClass("active");
 	});
+	$("#nav-list_mobile li").each(function (){
+			$(this).removeClass("active");
+	});
 
-	$("#" + name).addClass("active");
-
+	//add thesis as active class to portrait and lanscape/desktop menu
+	$("#" + "thesis-link").addClass("active");
+	$("#" + "thesis-link_mobile").addClass("active");
 });
 
 $(".redirect-to-implementation")
 .click(function() {
 
-	var name = $('#thesis-link').attr("name");
-	activeLink = name;
+	//make thesis the active class
+	activeLink = "thesis";
 
 	$('html,body').animate({
 		scrollTop: $("#implementation").offset().top - 50},
 		1500);
 
+	//remove active class from portrait and lanscape/desktop menu
 	$("#nav-list li").each(function (){
 		$(this).removeClass("active");
 	});
+	$("#nav-list_mobile li").each(function (){
+			$(this).removeClass("active");
+	});
 
-	$("#" + name).addClass("active");
-
+	//add thesis as active class to portrait and lanscape/desktop menu
+	$("#" + "thesis-link").addClass("active");
+	$("#" + "thesis-link_mobile").addClass("active");
 });
