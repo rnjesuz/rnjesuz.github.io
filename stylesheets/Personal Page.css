@@ -162,10 +162,24 @@ th {
 
 .bar-vertical {display: none;}
 /* For mobile media queries */
-/*@media only screen and (max-width : 320px) {
+/*@media only screen and (max-width : 480px) {
    .container .title {
     margin-top: 20%;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
   }
 }*/
+
+@media (hover: hover) {
+  .ink-navigation ul.menu.blue li a:hover {
+    background: none;
+  }
+
+  .ink-navigation ul.menu.blue li a:hover {
+    background: none;
+  }
+
+  :hover {
+    background: none;
+  }
+}

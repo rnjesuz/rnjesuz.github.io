@@ -60,8 +60,8 @@
 			<nav class="ink-navigation ink-grid">
 				<ul class="menu horizontal blue">
 					<li>
-						<a href="#"><img src="images/ic_menu_white_18dp/android/drawable-xhdpi/ic_menu_white_18dp.png"/></a>
-						<ul id="nav-list_mobile" class="submenu flyout right" style="background-color: #1b75ce;">
+						<a><img src="images/ic_menu_white_18dp/android/drawable-xhdpi/ic_menu_white_18dp.png"/></a>
+						<ul id="nav-list_mobile" class="submenu flyout right">
 							<li id="home-link_mobile" name="home-link_mobile" class="active"><a href="#"><img src="images/ic_home_white_18dp/web/ic_home_white_18dp_1x.png"/></a></li>
 							<li id="aboutme-link_mobile" name="aboutme-link_mobile"><a href="#" class="trn"><font color="white">About Me</font></a></li>
 							<li id="curriculum-link_mobile" name="curriculum-link_mobile"><a href="#"><font color="white">Curriculum Vitae</font></a></li>
@@ -69,9 +69,9 @@
 							<li id="contacts-link_mobile" name="contacts-link_mobile"><a href="#" class="trn"><font color="white">Contacts</font></a></li>
 						</ul>
 					</li>
-					<span class="flag-icon">
-						<li id="pt-link" name="pt-link"><a class="lang_selector" role="button" data-value="pt"><img src="images/pt.png"/></a></li>
-						<li id="en-link" name="en-link"><a class="lang_selector" role="button" data-value="en"><img src="images/gb.png"/></a></li>
+					<span id="lang-list_mobile" class="flag-icon">
+						<li id="pt-link_mobile"><a name="pt-link_mobile" class="lang_selector" role="button" data-value="pt"><img src="images/pt.png"/></a></li>
+						<li id="en-link_mobile" class="active"><a name="en-link_mobile" class="lang_selector" role="button" data-value="en"><img src="images/gb.png"/></a></li>
 					</span>
 				</ul>
 			</nav>
@@ -80,15 +80,17 @@
 		<!-- For desktop or landscape -->
     <div id="nav-bar" class="bar-horizontal">
     	<nav class="ink-navigation ink-grid">
-    		<ul id="nav-list" class="menu horizontal blue">
+    		<ul class="menu horizontal blue">
+					<span id="nav-list">
     			<li id="home-link" name="home-link" class="active"><a href="#"><img src="images/ic_home_white_18dp/web/ic_home_white_18dp_2x.png"/></a></li>
     			<li id="aboutme-link" name="aboutme-link"><a href="#" class="trn">About Me</a></li>
     			<li id="curriculum-link" name="curriculum-link"><a href="#">Curriculum Vitae</a></li>
     			<li id="thesis-link" name="thesis-link"><a href="#" class="trn">Thesis</a></li>
     			<li id="contacts-link" name="contacts-link"><a href="#" class="trn">Contacts</a></li>
-    			<span class="flag-icon">
-    				<li id="pt-link" name="pt-link"><a class="lang_selector" role="button" data-value="pt"><img src="images/pt.png"/></a></li>
-    				<li id="en-link" name="en-link"><a class="lang_selector" role="button" data-value="en"><img src="images/gb.png"/></a></li>
+				</span>
+    			<span id="lang-list" class="flag-icon">
+    				<li id="pt-link"><a name="pt-link" class="lang_selector" role="button" data-value="pt"><img src="images/pt.png"/></a></li>
+    				<li id="en-link" class="active"><a name="en-link" class="lang_selector" role="button" data-value="en"><img src="images/gb.png"/></a></li>
     			</span>
     		</ul>
     	</nav>

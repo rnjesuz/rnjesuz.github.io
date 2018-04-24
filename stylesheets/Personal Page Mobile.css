@@ -163,10 +163,27 @@ th {
 .bar-vertical {display: inline;}
 .bar-horizontal {display: none;}
 /* For mobile media queries */
-/*@media only screen and (max-width : 320px) {
-   .container .title {
+@media only screen and (max-width : 480px) {
+   /*.container .title {
     margin-top: 20%;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
+  }*/
+  #nav-list_mobile {
+    background-color: #1b75ce;
   }
-}*/
+}
+
+@media (hover: hover) {
+  .ink-navigation ul.menu.blue li a:hover {
+    background: none;
+  }
+
+  .ink-navigation ul.menu.blue li a:hover {
+    background: none;
+  }
+
+  :hover {
+    background: none;
+  }
+}
