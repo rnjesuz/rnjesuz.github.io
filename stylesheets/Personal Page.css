@@ -79,7 +79,7 @@ h1 {
 }
 
 .all-50{
-    min-height: 70vh;
+    /*min-height: 70vh;*/
     min-width: 45%;
     text-overflow: clip;
     overflow-wrap: break-word;

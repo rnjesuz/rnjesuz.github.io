@@ -63,7 +63,7 @@ $(function() {
     "Education": {
       pt: "Educação"
     },
-    "I'm currently working on my thesis for an MSc in Information Systems and Computer Engineering. My thesis' theme is <i><b>Go-together: A novel trajectory-based journey sharing platform for collective events</b></i> and my supervisor is professor João Pedro Barreto.": {
+    "I'm currently working on my thesis for an MSc in Information Systems and Computer Engineering. My thesis' theme is <i><b>Go-together: A novel trajectory-based journey sharing platform for collective events</b></i> and my advisor is professor João Pedro Barreto.": {
       pt: "De momento encontro-me a trabalhar na minha tese de mestrado em Engenharia Informática e de Computadores. A minha tese é <i><b>Go-together: A novel trajectory-based journey sharing platform for collective events</b></i> e o meu orientador é o professor Jão Pedro Barreto."
     },
     "Finished my MSc": {
@@ -143,7 +143,7 @@ $(function() {
     "Author": {
       pt: "Autor"
     },
-    "Supervisor": {
+    "Advisor": {
       pt: "Orientador"
     },
     "Examination Committee": {
