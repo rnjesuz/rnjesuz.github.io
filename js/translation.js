@@ -41,7 +41,7 @@ $(function() {
       pt: "Esforço-me para manter um ambiente de trabalho amigável e dedicado, com uma ideologia de trabalho de equipa e melhoramento conjunto."
     },
     "Currently I have no previous professional experience, but am eager to start and prove my worth.": {
-      pt: "Não possuo nenhuma experiência proffisional prévia, mas estou desejoso de começar e mostrar o meu valor."
+      pt: "Não possuo nenhuma experiência profisional prévia, mas estou desejoso de começar e mostrar o meu valor."
     },
     "Volunteer work": {
       pt: "Voluntariado"
@@ -50,7 +50,7 @@ $(function() {
       pt: "Grupos Estudantis: "
     },
     "I was, and currently am, part of several activities and student groups of Instituto Superior Técnico. I led and participated in several initiatives design to improve student life and communication within the school, and help them hon and master their skills. All the experiences and challenges faced proved invaluable.": {
-      pt: "Participei, e ainda participo, em diversas actividades e grupos estudantis do Instituto Superior Técnico. Liderei e participei em diversas iniciativas designadas a melhorar o percurso e tempo de outros estudantes na instituição, e ajudá-los a practicar e desenvolver as suas valências. Todos os desafios e experiêmncias adquiridas provam-se inestimáveis."
+      pt: "Participei, e ainda participo, em diversas actividades e grupos estudantis do Instituto Superior Técnico. Liderei e participei em diversas iniciativas designadas a melhorar o percurso e tempo de outros estudantes na instituição, e ajudá-los a practicar e desenvolver as suas valências. Todos os desafios e experiências adquiridas provam-se inestimáveis."
     },
     "Hobbies": {
       pt: "Hobbies"
@@ -99,11 +99,11 @@ $(function() {
     "Skills": {
       pt: "Competências"
     },
-    "<b>Knowledge:</b> OOP, Distributed Systems, Software Testing, Project Management, Mobile Computing, Secure Communications, Artificial intelligence, Agile Development.": {
-      pt: "<b>Conhecimentos:</b> POO, Sistemas Distribuídos, Teste de Software, Gestão de Projectos, Computação Móvel, Comunicações Seguras, Inteligência Artificial, Desenvolvimento Ágile."
+    "<b>Knowledge:</b> OOP, Distributed Systems, Software Testing, Project Management, Mobile Computing, Secure Communications, Artificial intelligence, Databases, Agile Development.": {
+      pt: "<b>Conhecimentos:</b> POO, Sistemas Distribuídos, Teste de Software, Gestão de Projectos, Computação Móvel, Comunicações Seguras, Inteligência Artificial, Bases de Dados, Desenvolvimento Ágil de Software."
     },
-    "Programming Languages:": {
-      pt: "Linguagens de Programação:"
+    "Programming:": {
+      pt: "Programação:"
     },
     "Version Control:": {
       pt: "Controlo de Versões:"
@@ -122,11 +122,14 @@ $(function() {
     "From monetary cost to environmental awareness, the world is shying away from diesel vehicles and exlploring other mobility options. Ride-sharing is one of the possibilities and areas of research and inovation. To partake in that advancement, in collaboration with professor João Barreto, I started idealizing a ride-sharing solution for a never explored, niche market: matchmaking calculations for a pre-formed group going on a joint travel (to minimize vehicles).": {
       pt: "Desde custos monetários a consciencialização ecológica, o mundo afasta-se de veículos fosseís à procura de outras soluções de mobilidade. A partilha de carro é uma das várias`´areas de inovação e pesquisa. Para participar nessa área de progresso comecei, em colaboração com o professor João Barreto, a idealizar uma solução para um mercado niche, nunca explorado: Emparelhar um grupo pré-formado que vai numa viagem conjunta (numa tentativa de reduzir os veículos utilizados)."
     },
-     "My thesis was redacted in English (Research and Implementation).": {
-      pt: "A minha tese, desde a pesquisa à sua implemwentação, foi realizada em Inglês."
+     "My thesis was redacted in English (Research and Dissertation).": {
+      pt: "A minha tese, desde a pesquisa à dissertação, foi realizada em Inglês."
     },
-    "Research": {
-      pt: "Pesquisa"
+    "<u>Dissertation</u>": {
+      pt: "<u>Dissertação</u>"
+    },
+    "<u>Research</u>": {
+      pt: "<u>Pesquisa</u>"
     },
     "Abstract": {
       pt: "Resumo"
