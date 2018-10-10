@@ -140,6 +140,9 @@ $(function() {
     "Read Research": {
       pt: "Ler pesquisa"
     },
+    "Read Dissertation": {
+      pt: "Ler dissertação"
+    },
     "Title": {
       pt: "Título"
     },
