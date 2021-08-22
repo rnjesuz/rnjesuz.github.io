@@ -31,8 +31,8 @@ $(function() {
     "Biography": {
       pt: "Biografia"
     },
-    "My name is Ricardo Nuno Macedo de Jesus, I'm 23 and from Lisbon, Portugal. Native in Portuguese, fluent in English and can at least understand Spanish and French.": {
-      pt: "O meu nome é Ricardo Nuno Macedo de Jesus, tenho 23 anos e sou de Lisboa, Portugal. Português é a minha lingua mãe, sou fluente em Inglês e tenho conhecimento básico de Espanhol e Francês."
+    "My name is Ricardo Nuno Macedo de Jesus, I'm 27 and from Lisbon, Portugal. Native in Portuguese, fluent in English and can understand Spanish and French.": {
+      pt: "O meu nome é Ricardo Nuno Macedo de Jesus, tenho 27 anos e sou de Lisboa, Portugal. Português é a minha lingua materna, sou fluente em Inglês e tenho conhecimento básico de Espanhol e Francês."
     },
     "I consider myself hard-working, perfectionist, responsible, out-going and positive. Always open-minded to try new ideas. I constantly try to better myself and surpass my limits. I aspire to never stop learning new tools and techniques, to remain knowledgeable of innovations and state of the art possibilities.": {
       pt: "Considero-me uma pessoa trabalhadora, perfeccionista, responsável, amigável e positiva. Sempre de mente aberta a novas ideias, estou constantemente a tentar melhorar-me e ultrapassar os meus limites. Pretendo manter-me ocorrente de todas as novas tecnologias e possibilidades, nunca parando de aprender novas técnicas e ferramentas."
