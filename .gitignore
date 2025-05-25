@@ -1,10 +1,4 @@
-# other versions 
-joaquim/
-stylesheets/Personal Page_old.css
+.idea
+node_modules
 
-# frameworks versions
-Bootstrap/
-Ink/
-
-# todo file
-TODO.txt
+package-lock.json
