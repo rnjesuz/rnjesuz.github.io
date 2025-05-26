@@ -2,7 +2,7 @@ import { Github, Linkedin } from "lucide-react";
 
 const Home = () => (
   <div className="space-y-6">
-    <h1 className="text-4xl font-bold">Welcome to My Homepage</h1>
+    <h1 className="text-4xl font-bold">Welcome to my Homepage</h1>
     <p className="text-base">
       I'm a Software Engineer with a passion for humane design. I love creating clean,
       efficient, and user-centric digital experiences.
