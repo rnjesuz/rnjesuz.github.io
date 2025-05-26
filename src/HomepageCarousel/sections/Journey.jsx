@@ -13,14 +13,13 @@ const Journey = () => (
             <h3 className="text-lg font-semibold mb-2">{school.school}</h3>
             {school.degrees.map((degree, i) => (
               <div key={i} className="relative pl-8 pb-8">
-                {/*<div className="absolute left-[-12px] top-0 bg-white z-10">{degree.icon}</div>*/}
                 <div className="absolute left-[-12px] top-0 bg-white z-10">
                   <GraduationCap className="w-5 h-5 text-blue-500" />
                 </div>
                 <h4 className="text-md font-semibold">{degree.title}</h4>
                 <h5 className="text-sm font-semibold">{degree.subtittle}</h5>
                 <p className="text-xs text-gray-400 italic mb-1">{degree.date}</p>
-                <p className="text-sm mb-2">{degree.description}</p>
+                <p className="text-sm mb-2 whitespace-pre-line">{degree.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {degree.keywords.map((kw, idx) => (
                     <span key={idx} className="bg-gray-200 text-xs px-2 py-1 rounded-full">{kw}</span>
@@ -38,7 +37,6 @@ const Journey = () => (
             <h3 className="text-lg font-semibold mb-2">{accreditation.accreditation}</h3>
             {accreditation.certifications.map((certification, i) => (
               <div key={i} className="relative pl-8 pb-8">
-                {/*<div className="absolute left-[-12px] top-0 bg-white z-10">{certification.icon}</div>*/}
                 <div className="absolute left-[-12px] top-0 bg-white z-10">
                   <Medal className="w-5 h-5 text-green-500" />
                 </div>
@@ -65,13 +63,12 @@ const Journey = () => (
             <h3 className="text-lg font-semibold mb-2">{company.company}</h3>
             {company.roles.map((role, i) => (
               <div key={i} className="relative pl-8 pb-8">
-                {/*<div className="absolute left-[-12px] top-0 bg-white z-10">{role.icon}</div>*/}
                 <div className="absolute left-[-12px] top-0 bg-white z-10">
                   <Briefcase className="w-5 h-5 text-black" />
                 </div>
                 <h4 className="text-md font-semibold">{role.title}</h4>
                 <p className="text-xs text-gray-400 italic mb-1">{role.date}</p>
-                <p className="text-sm mb-2">{role.description}</p>
+                <p className="text-sm mb-2 whitespace-pre-line">{role.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {role.keywords.map((kw, idx) => (
                     <span key={idx} className="bg-gray-200 text-xs px-2 py-1 rounded-full">{kw}</span>
