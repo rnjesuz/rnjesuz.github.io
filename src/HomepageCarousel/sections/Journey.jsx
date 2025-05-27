@@ -42,13 +42,17 @@ const Journey = () => (
             <div className="absolute -left-[48px] top-0 z-10 w-8 h-8 border-2 border-blue-500 rounded-full bg-white flex items-center justify-center">
               <GraduationCap className="w-6 h-6 text-blue-500" />
             </div>
-            <h3 className="text-lg font-semibold mb-2">{school.school}</h3>
-            {school.degrees.map((degree, i) => (
-              <div key={i} className="pl-4 mb-6">
-                <h4 className="text-md font-semibold">{degree.title}</h4>
-                <h5 className="text-sm font-semibold">{degree.subtitle}</h5>
-                <p className="text-xs text-gray-400 italic mb-1">{degree.date}</p>
-                <p className="text-sm mb-2 whitespace-pre-line">{degree.description}</p>
+            <h3 className="text-lg font-semibold mb-6">{school.school}</h3>
+            {school.courses.map((course, courseIndex) => (
+              <div key={courseIndex}>
+                <h4 className="text-md font-semibold mb-2">{course.title}</h4>
+                <p className="text-sm mb-2 whitespace-pre-line">{course.description}</p>
+                {course.degrees.map((degree, degreeIndex) => (
+                  <div key={degreeIndex} className="pl-4 mb-2">
+                    <h4 className="text-md font-semibold">{degree.title}</h4>
+                    <p className="text-xs text-gray-400 italic mb-1">{degree.date}</p>
+                  </div>
+                ))}
               </div>
             ))}
           </div>
