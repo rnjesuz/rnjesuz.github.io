@@ -49,11 +49,6 @@ const Journey = () => (
                 <h5 className="text-sm font-semibold">{degree.subtitle}</h5>
                 <p className="text-xs text-gray-400 italic mb-1">{degree.date}</p>
                 <p className="text-sm mb-2 whitespace-pre-line">{degree.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {degree.keywords.map((kw, idx) => (
-                    <span key={idx} className="bg-gray-200 text-xs px-2 py-1 rounded-full">{kw}</span>
-                  ))}
-                </div>
               </div>
             ))}
           </div>
