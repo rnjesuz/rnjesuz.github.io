@@ -5,8 +5,36 @@ export const careerData = [
       {
         title: "Senior Software Engineer",
         date: "Aug 2024 - Present",
-        description: "",
-        keywords: ["Leadership", "Strategy", "Mentorship"],
+        description: `
+          Strategic Planning and Management
+          * Sprint breakdown
+          * Prioritization
+          * Evaluate success metrics
+          * Orient and assist team-members in planning initiative
+
+          Reporting and KPI analysis
+          * Set up audit pipeline publishing events to data lake
+          * Report account operations to create user timeline and improve CX analysis
+          * Register user UI actions to analyse behaviour and UX
+          * Interpret service faults and user demands
+          * Detect system abuse and misuse
+
+          Observability
+          * Structure E2E tests
+          * Smoke test critical components
+          * Create code templates to automate monitor and alert provisioning
+
+          Performance and Resilience
+          * Improve response times by setting up caches on critical and high volume use cases
+          * Introduce resiliency patterns to critical components and in communications to volatile services
+
+          Tech improvements
+          * Refactor APIs: make them restful; deprecate inconsistent use cases; unify and create consistency 
+          * Improve security with OTP verification in account's contact operations
+          * Enforce semantic-releases with automated version management
+          * Integrated automated package-publishing tool with Ci/CD pipeline
+        `.trim(),
+        keywords: ["Management", "Strategy", "Mentorship", "Snowplow", "Snowcat", "Data lake", "Datadog", "Grafana", "Synthetic tests", "Playwright", "Memory cache", "Redis"],
       },
       {
         title: "Software Engineer",
