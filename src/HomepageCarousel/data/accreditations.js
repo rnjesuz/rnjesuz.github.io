@@ -1,4 +1,16 @@
 export const accreditationData = [
+    {
+    title: "Fundamentals of Database Engineering",
+    issuer: "Udemy",
+    date: "January 2026",
+    keywords: ["Database System Design", "Partitioning", "Sharding", "Replication", "Indexing", "Concurrency Control", "Database Engines", "Cursors", "B-trees", "Database  Management System (DBMS)", "Embedded Database", "ACID"],
+  },
+  {
+    title: "Leadership Effectiveness Acceleration Program (LEAP)",
+    issuer: "Wellhub",
+    date: "September 2025",
+    keywords: ["Change Management", "Communication and Feedback", "Problem Solving", "Conflict Resolution", "Data Analysis", "Strategic Planning"],
+  },
   {
     title: "Spring Boot 3: Learn Spring 6, Spring Core, Spring REST, Spring MVC, Spring Security, Thymeleaf, JPA, Hibernate, MySQL",
     issuer: "Udemy",
