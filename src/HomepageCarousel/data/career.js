@@ -91,22 +91,19 @@ export const careerData = [
         title: "Software Engineer",
         date: "Jun 2019 - Aug 2022",
         description: `
-        Sofware Engineer:
-          - Development and automation of processes in a multi-context ecosystem
-          - DevOps
-          - Integration with internal and external systems
-          - Migration from a monolithic system to a micro-service environment
-          Programming languages: Java, Python, Bash
-          Persistence: JPA (Hibernate), PostgreSQL
-          Frameworks: Jersey, Jooby, Guice, Flyway
-          Other involved technologies: Kafka, Docker, Nomad, jUnit, Maven
-          Server: Jetty, Tomcat
-          Deployment: AWS, Terraform, Ansible
-          Developer tools: IntelliJ IDEA, DataGrip, git
-          
-          Solution Architect:
-          - Standardization for event-driven architecture
-          - Scalable and future-proofed RESTful APIs
+        Payments & billing
+        - Storage and processing of bank and card details, meeting the security and compliance requirements for PCI DSS
+        - Integration with payment gateways and acquiring infrastructure: Stripe, SIBS, Ingenico, PayPal and others
+        - Automated billing and payment retry flows for failed and deferred transactions
+        - Robust, auditable logging to satisfy financial regulation and external audits, plus scripts automating log collection and reconciliation
+        
+        Platform & architecture
+        - Migration from a monolithic system to a micro-service environment
+        - Development and automation of processes across a multi-context ecosystem
+        - DevOps
+        - Integration with internal and external systems
+        - Standardization for event-driven architecture
+        - Scalable and future-proofed RESTful APIs
         `.trim(),
         keywords: ["AWS", "Maven", "Java", "PostgreSQL", "Docker", "Kafka", "CI/CD"],
       },
